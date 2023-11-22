@@ -1,0 +1,47 @@
+.container__users {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 60px;
+    margin-top: 10vh; /* Utiliza vh (viewport height) en lugar de porcentaje */
+  }
+  
+  .contenedor__users {
+    display: grid;
+    gap: 15px;
+    width: calc(25% - 20px); /* Ten en cuenta el espacio entre elementos */
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2.5px solid rgb(119, 119, 202);
+    box-shadow: rgba(177, 74, 151, 0.568) 5px 3px 5px 3px;
+    background-color: white;
+    
+  }
+
+  .user__names{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+  }
+
+  .users__email{
+    display: flex;
+    justify-content: space-between;
+  }
+  .user__bir{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .users__birthday{
+    font-weight: bold;
+  }
+  .users__email__label{
+    font-weight: bold;
+  }
+
+  .botones{
+    display: flex;
+    justify-content: start;
+  }
+  
